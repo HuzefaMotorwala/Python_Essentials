@@ -6,10 +6,11 @@ def isleapyear(year):
   
 testdata=[1900,2000,2016,1987]
 testresult=[False,True,True,False]
-yr=testdata[i]
-print(yr,"=",end="")
-result=isleapyear(yr)
-if result==testresult[i]:
-  print("ok")
-else:
-  print("Failed")
+for i in range(len(testdata)):
+    yr=testdata[i]
+    print(yr,"=",end="")
+    result=isleapyear(yr)
+    if result==testresult[i]:
+        print("Ok")
+    else:
+        print("Failed")
