@@ -9,8 +9,3 @@ endminute=endminute%60
 endhour=endhour%24
 
 print(endhour,endminute,sep=":")
-
-
-
-
-
